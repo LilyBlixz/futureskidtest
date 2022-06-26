@@ -839,5 +839,4 @@ spawn(function()
         GuiLibrary["SaveConfig"](GuiLibrary["CurrentConfig"], true)
     until not shared.Future
 end)
-fprint("Finished loading in "..tostring(math.floor((game:GetService("Workspace"):GetServerTimeNow() - startTime) * 1000) / 1000).."s\nPress "..GuiLibrary["GuiKeybind"].." to open the Gui.\nPlease join the discord for changelogs and to report bugs. \ndiscord.gg/bdjT5UmmDJ\nEnjoy using Future v"..shared._FUTUREVERSION.."")
 shared._FUTURECACHED = true
